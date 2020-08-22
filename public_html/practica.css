@@ -1,0 +1,18 @@
+.background-sky {
+    background-color: #1976d2;
+    background: linear-gradient(145deg,black,red);
+    color: #fff;
+    
+}
+
+.hero{
+    transform: skewY(2deg);
+    transform-origin: 100%;
+    overflow: hidden;
+        box-sizing: border-box;
+    max-height: 560px;
+    height: 50vh;
+    min-height: 480px;
+    padding: 48px 48px 32px 48px;
+    margin-top: -100px
+}

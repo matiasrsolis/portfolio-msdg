@@ -1,0 +1,1096 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Asap', sans-serif;
+}
+
+body{left:0;
+    background-color: azure}
+
+.ddos{display:none}
+
+header{background-color: darkslategray;
+        color: azure;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: .3em;
+    position: relative;
+}
+
+.logo{
+    /*margin-left: 0.7em;*/
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 47%;
+}
+
+.logotipo_ms{
+    font-size: 1.2em;
+    color: ghostwhite;
+    font-weight: normal;
+    color: gainsboro;
+}
+
+.logotipo_ms span{
+    font-weight: 500;
+    font-size: 1.6em;
+    color: ghostwhite;
+}
+
+.logo a{
+    color: ghostwhite;
+    font-size: 1em;
+	font-family: 'Asap', sans-serif;
+}
+
+/*cuadradito blanco*/
+#btn-menu{display: none;} 
+
+/*icono del menu*/
+header label{
+        font-size: 1.8em;
+        cursor: pointer;
+        display: none;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    /*background-color: darkslategrey;*/
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+}
+
+.menu ul ul{
+    display:none;
+}
+
+.menu ul li ul{
+    background-color: darkslategrey;
+}
+
+.menu a{display: block;
+        padding: 0.7em 0.9em;
+        color: ghostwhite;
+        /*transition: background 5s;*/
+}
+
+.menu a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.menu a span{
+    margin-left: 0.5em;
+}
+
+/*subitems*/
+.menu ul li:hover ul{
+    display: block;
+    /*absolute para que se despegue de la maquetacion y no ocupe toda la pantalla*/
+    position: absolute;
+    width: 12em;
+}
+
+
+
+/*presentación*/
+
+main{
+    margin-top: 3.7em;
+    }
+
+.justif{
+    width: 80%;
+    margin: auto;
+}
+
+.paglogo{width: 30%;}
+
+
+footer{
+    background-color: darkslategray;
+    position: fixed;
+    bottom:0;
+    color: ghostwhite;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+	font-size: .8em
+	}
+
+.redes img{
+    width: 1.1em;
+    margin-left: 0.3em;
+}
+
+.bloque_footer{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.inferior{
+    display: flex;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 1.6em;
+    
+}
+
+.inferior{
+    margin-top: 2.7em;
+}
+
+
+
+figure{
+    margin: auto;
+    height: auto;
+    text-align: center;
+    margin: 1em auto 0;
+    width: 90%;
+    }
+
+.datos_personales, .experiencia{
+    width: 75%
+}
+
+.fotogr{
+    margin-bottom: 1em
+}
+
+.ruta{
+    margin: auto;
+    width: 80%;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    color: darkslategray;
+    
+}
+
+.ruta ul{
+    display: flex;
+    font-size: 0.8em; 
+}
+
+.ruta a{
+    color: darkslategray;
+}
+
+.ruta li{
+    padding:0 .2em;
+}
+
+
+.biografia{
+	display: flex;
+	width: 100%;
+	margin: auto;
+}
+
+.biografia img{
+	max-width: 100%;
+	height: auto;
+	
+}
+
+aside{
+	width: 25%;
+	height: 76vh;
+	/*border-left: .1rem solid #CFE2DE;*/
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: .2em;
+}
+
+.resumen{
+	width: 100%;
+	padding-left: 2em
+}
+
+.parrafo{
+	margin-left: 0em
+}
+
+.parrafo{
+	padding-top: 0em
+}
+
+.parrafo p{
+	font-family: 'Asap', sans-serif;
+	line-height: 20px;
+	font-size: .8em;
+	width: 100%;
+	color: azure;
+	max-width: 55em;
+    
+}
+
+.parrafo h2{
+	font-size: 3em;
+	color: azure;
+	
+}
+
+.justif{
+    background-color: #075C5A;
+    border-radius: 0.25em;
+    padding: 2em;
+    padding-bottom: 4em;
+    min-height: 83vh;
+    margin-bottom: 4em;
+    
+}
+
+h1{
+	margin: auto;
+	font-size: 2em;
+	
+}
+
+.total{
+    padding-top: 0;
+	/*background-color: azure;*/
+    }
+
+.dato{
+	margin-bottom: .8em;
+}
+
+figure h3{
+	margin-bottom: 1.2em;
+	text-align: left;
+	color: azure;
+	font-size: 1.3em;
+    font-weight: 100;
+    border-bottom: solid .1rem;
+    padding-bottom: .3em
+}
+
+figure h4, figure p{
+	font-size: .7em;
+	text-align: left
+}
+
+figure h4{
+	width: 100%;
+    
+    margin-bottom: .3em;
+	color: azure;
+	letter-spacing: .1em
+}
+
+figure p{
+	color:ghostwhite;
+	margin-top: .1em
+}
+
+.resuasi{
+	display: flex;
+	width: 100%
+}
+
+.contac{
+    width:52%
+}
+
+.dato h5{
+    text-align: left;
+    color: azure;
+    font-size: .9em;
+    margin-bottom: .3em
+}
+
+.redes{
+    display: none;
+}
+
+h2{
+    color: ghostwhite;
+}
+
+.link_social{
+    font-family: 'Social Icons Pro Set 1 - Rounded', sans-serif;
+    color: ghostwhite;
+}
+
+.link_social:hover{
+    color: gainsboro;
+}
+
+.txta{
+    font-size: 3.5em;
+    /*width: 497px;*/
+    display: flex;
+    justify-content: flex-start;
+}
+
+.txta p:hover{
+    color: gainsboro;
+}
+
+.parrafo{
+    display: flex;
+    margin-top: 1em
+}
+
+.texto{
+    width: 65%;
+}
+
+.titulo{
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    margin-top: 1em
+}
+
+.bajada{
+    color: ghostwhite;
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+    padding-left: 4em;
+    width: 600px;
+}
+
+.texto h3{
+    color: ghostwhite;
+    font-size: 1.6em;
+    margin-bottom: .5em;
+    text-align: left
+}
+
+.texto{
+    width: 733px;
+}
+
+.texto p{
+    text-align: justify;
+    margin-top: .7em;
+}
+
+
+.epiuno, .epidos, .epitres{
+    color: ghostwhite;
+    text-indent: 0;
+    font-size: .85em;
+    width: 140px;
+}
+
+.epigrafe p{
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.epigrafe h5{
+    font-size: 1em;
+    text-align: left;
+    font-weight: 100;
+}
+
+.capital_letter{
+    float: left;
+    font-size:5.7em;
+    line-height: 60px;
+    padding: 2px;
+    margin-right: 7px;
+    text-indent: 0;
+    height: 1em
+}
+
+.destacado{
+    background-color: ghostwhite;
+    color: darkslategray;
+    border-radius: .1em;
+    padding: 0 .2em;
+}
+
+.texto a{
+    color: ghostwhite;
+    border: .1em solid;
+    padding: 0 .3em;
+}
+
+.texto a:hover{
+    color: gainsboro;
+}
+
+.italica{
+    font-style: italic;
+}
+
+.arriba img{
+    width: 5em;
+}
+
+.comunicados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5em 1.3em 2em 1.3em;
+    color: ghostwhite;
+    
+}
+
+
+.contac{
+	width: 100%;
+    margin-top: 1.5em
+}
+
+.ms{
+    font-size: 3.2em;
+}
+
+.txta{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txta a{
+    font-size: .7em;
+}
+
+.txta p:hover{
+    color: gainsboro;
+}
+
+.subt{
+    margin-bottom: .5em;
+    border-bottom: solid .1rem;
+    padding-bottom: .4em;
+    font-size: 1.1em;
+}
+
+.txt{
+    font-size: .8em;
+    margin-top: .6em;
+    line-height: 1.3em
+}
+
+.txt p{
+    margin-top: .7em
+}
+
+.arriba{
+    text-align: right
+}
+
+.columnas{display: flex;}
+
+.columnauno{
+    margin-right: 2.5em;
+}
+
+.bold{
+    font-weight: 600
+}
+
+.eslaider{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+#slider{
+    margin-left: 0px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 500%;
+}
+
+#c-slider{
+    margin: auto;
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 5px #fff,
+                0 15px 50px;
+}
+
+#slider section{
+    width: 100%;
+}
+
+#slider img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#btn-prev, #btn-next{
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: darkslategrey;
+}
+
+#btn-prev:hover, #btn-next:hover{
+    background: rgba(255, 255, 255, 1);
+}
+
+#btn-prev{
+    left: 10px;
+}
+
+#btn-next{
+    right: 10px;
+}
+
+.cont_busca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+    /*flex-direction: column;*/
+    padding: .3em;
+}
+
+.icon-search{
+    font-size: 1.3em;
+    margin-left: .2em
+}
+
+.busca{
+    padding: .5em;
+}
+
+.search{
+    width: 17em;
+    max-width: 1000px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 0 .2em;
+    
+    max-height: 85vh;
+    overflow-x: hidden;
+    display: none;
+    position: absolute;
+    right: 2.7em;
+}
+
+.search-table{
+    width: 100%;
+}
+
+tbody tr td a{
+    width: 100%;
+    border: .1em solid azure;
+}
+
+tbody tr td a:hover{
+    border: .1em solid darkcyan;
+}
+
+.search a{
+    color: darkcyan;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: .5em 0;
+}
+
+.header_box{
+   /* background: rgba(0,0,0,0.5);
+    height: 100vh;*/
+}
+
+.dataTables_paginate paging_simple_numbers,
+.paginate_button previous disabled,
+.paginate_button next,
+.paginate_button current,
+.paginate_button,
+.dataTables_info{
+    font-size: 0;
+    padding: 0;
+}
+
+.dataTables_length,
+.dataTables_filter{
+    display: none;
+}
+
+.input_busqueda{
+    display: none;
+}
+
+.icon-search:hover{
+    cursor: pointer;
+}
+
+/********************************************************************************************/
+
+
+@media (max-width:1500px){
+    .justif{
+        margin-bottom: 4em
+    }
+    
+    .datos_personales, .experiencia{
+        width: 100%;
+    }
+    
+    .parrafo{
+        display: block;
+    }
+    
+    .epigrafe{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0;
+        margin: 3em;
+        
+    }
+    
+    .epigrafe p{
+        text-align: left
+    }
+    
+    .epigrafe h5{
+        text-align: left
+    }
+    
+    .texto{
+        margin-left: 3em;
+        width: 85%;
+    }
+    
+    .txta{
+        width: 100%;
+    }
+    
+    #slider{
+    margin-left: 0;
+    
+    }
+}
+    
+@media (max-width:1373px){
+    
+    
+    .biografia{
+        display: block;
+    }
+
+
+    .comunicados{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 4em;
+        height: auto;
+    }
+    
+    .abajo{
+        display: flex;
+    }
+    
+    .contac{
+        margin-left: 2em;
+        margin-top: 0;
+        width: 10em
+    }
+    
+    .txta{
+        width: 80%
+    }
+    
+    aside{
+        height: 20vh;
+    }
+}
+
+@media (max-width:1089px){
+    
+    .resuasi{
+        display: block;
+    }
+    
+    .fotos{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .datos_personales,.experiencia{
+        margin-left: 2em
+    }
+    
+    .epigrafe{
+        margin-left: 5em
+    }
+    
+    .epiuno{
+        display: none;
+    }
+    
+    .logotipo_ms{
+        margin-left: 7em;
+    }
+}
+
+
+@media (max-width: 860px){
+    header label{display: block;}
+    
+    .menu{position: absolute;
+            top: 2.9em;
+            left: 0;
+            width: 90%;
+            /*para que el menu se vaya de la pantalla*/
+            transform: translateX(-100%);
+            transition: all 0.6s;
+    }
+    
+    .menu ul{flex-direction: column;
+            background-color: cadetblue;}
+    
+    .menu ul li:hover ul{
+        display:none;
+        /*sacamos absolute, static para empujar el menu cuando clickeamos en ese boton*/
+        position: static;
+    }
+    
+    .menu a span{position: absolute;
+                right: 1em;
+    }
+    
+    /*cuando btn-menu (cuadradito blanco) tenga el checked (?) llamo al menu y le voy a decir que no se traslade, que vuelva a su posicion original*/
+    
+#btn-menu:checked ~ .menu{
+        transform: translateX(0%);
+    }
+    
+    .menu ul ul{background-color: darkcyan;
+                width: 100%;}
+    
+    .menu ul ul a{padding: 15px 40px;}
+    
+    .menu ul li:hover ul{
+    width: 100%;
+}
+    
+    .logo{font-size: 0.8em;}
+    
+    .total{padding-bottom: 4em}
+    
+    
+    .justif{
+        width: 90%;
+        padding: 0.7em;
+}
+    
+    .ruta{
+        width: 90%
+    }
+    
+	
+	
+	.contac{margin-right: 0}
+    
+    /* .duno{
+        display: none;
+    }
+    
+    .ddos{
+        display:flex;
+        
+    }*/
+    
+    .fotos{
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        max-height:0%;
+        
+    }
+    
+    .epigrafe{
+        margin-bottom: 1em
+    }
+    
+    .biografia{
+        display: block
+    }
+    
+    .fotos div{
+        margin: 0 3%
+    }
+    
+    .texto,.bajada{
+        margin-left: 0;
+    }
+	
+    .bajada{
+        padding-left: 0;
+    }
+    
+    .dato{
+        padding-bottom: .8em
+    }
+    
+    .fotos{
+        display: block;
+    }
+    
+    .fotogr{
+        width: 60%
+    }
+    
+    .datos_personales,.experiencia{
+        margin-left: 0
+    }
+    
+    .bajada,.texto{
+        width: 100%
+    }
+    
+    .epigrafe{
+        margin-left: 0;
+    }
+    
+    .resumen{
+        width: 90%
+    }
+    
+    .txta{
+        width: 90%
+    }
+    
+    .logotipo_ms{
+        margin-left: 0em;
+    }
+    
+    .logo{
+        position: static;
+    }
+}
+
+@media (max-width: 700px){
+    .columnas{display: block;}
+    
+    .columnauno{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px){
+    
+	
+	
+    footer{display: none}
+    
+    
+    .ruta{
+        display: none;
+    }
+    
+    
+    .justif{
+        margin-bottom: 2em;
+		padding: 0;
+		margin-top: 5em;
+    }
+	
+	.parrafo{
+		margin-left: 0;
+        
+	}
+	
+	.resumen{
+		padding-left: 0;
+        margin: auto;
+        
+	}
+	
+	.inferior{
+		margin-left: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.contac{
+		margin-right: 0;
+        width: 80%;
+	}
+	
+	aside{
+		display: block;
+		width: 80%;
+        
+        margin: auto;
+        margin-top: 3em;
+	}
+    
+    
+    
+    figure{
+        width: 80%
+    }
+    
+    .justif{
+        padding-bottom: 3em
+    }
+    
+    .inferior{
+        bottom:2%;
+        left:0;
+        width: 70%;
+        margin: auto;
+    }
+	
+    .contac img{
+        width: 40px;
+        height: 40px
+    }
+    
+	.fotos{
+		background-image:url(../img/perfil/7.jpg);
+		height: 9em;
+		width: 100%;
+		border-top-left-radius: .4em;
+		border-top-right-radius: .4em;
+	}
+	
+	.fotos img{
+		display: none;
+	}
+	
+	.inferior{
+        margin-top:0;
+        /*width: 100%;*/
+    }
+	
+	.parrafo p{
+		font-size: .85em;
+		line-height: 1.64em;
+		padding-right: 0;
+        width: 100%
+		
+	}
+    
+    .resumen{width: 90%}
+    
+    .comunicados{
+        flex-direction: column;
+        height: auto
+    }
+    
+    .abajo{
+        flex-direction: column
+    }
+    
+    .ms{
+        margin-bottom: .4em;
+        padding-left: .5em
+    }
+    
+    .datos_personales,.experiencia{
+        display: none;
+    }
+    
+    .epigrafe{
+        display: block;
+        margin-left: 2em;
+        margin-bottom: 3em;
+        width: auto;
+    }
+    
+    .total,.justif{
+        padding-bottom: 0;
+    }
+    
+    .epiuno{
+        display: block;
+    }
+    
+    #btn-prev, #btn-next{
+        width: 20px;
+        height: 20px;
+        font-size: 1em;
+        line-height: normal;
+    }
+    
+    .resumen{
+        padding: 0.1em;
+    }
+    
+    .titulo{
+        margin-bottom: 0.6em;
+        font-size: 1.4em;
+    }
+    
+    .eslaider{
+        margin-top: 1.4em;
+        margin-bottom: 2.5em;
+    }
+    
+    #c-slider{
+        width: 100%
+    }
+    
+    .bajada{
+        font-size: .85em;
+    }
+    
+    .rsoc{margin-top: 1em;}
+    
+    header{
+        height: 2.9em;
+    }
+}
+
+
+
+
+
+    

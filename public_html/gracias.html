@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+		<!--favicom--><link rel="icon" type="image/png" href="img/logo1.png">
+        <!--charset--><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--titulo--><title>Matías Solís \ MS Diseño Gráfico \ Ituzaingó, Argentina</title>
+		<!--google--><meta name="Description" content="Matías Solís · Diseño gráfico freelance · Diseño de identidad · Diseño web · Tipografía · Diseño editorial. info@matiassolis.com">
+        <!--css--><link href="css/estilo.css" rel="stylesheet" type="text/css"> 
+        <!--fontello (search)--><link rel="stylesheet" href="css/fontello2.css">
+        <!--jquery--><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <!--viewport--><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--buscador--><script src="js/jquery.dataTables.min.js"></script>
+        
+        
+        <!--color navegador--><meta name="theme-color" content="#2f4f4f">
+        <!--font awesome--> <link rel="stylesheet" href="css/font-awesome.css">
+<!--        cargador <script src="js/load.js" type="text/javascript"></script>-->
+        <!--icono de remera--><link rel="stylesheet" type="text/css" href="css/flaticon.css"> 
+        <!--main.js--> <script src="js/main.js"></script>
+        <!--scroll lento--> <script src="js/smooth-scroll.min.js"></script>
+        <!--script scroll lento--> 
+        <script>
+                var scroll = new SmoothScroll('a[href*="#"]', {
+                // Selectors
+                ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+                header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+                // Speed & Easing
+                speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+                offset: 6, // Distancia entre la parte superior de la pantalla y la parte superior del contenedor
+                easing: 'easeInOutCubic', // Easing pattern to use
+                customEasing: function (time) {}, // Function. Custom easing pattern
+
+                // Callback API
+                before: function () {}, // Callback to run before scroll
+                after: function () {} // Callback to run after scroll
+            });
+        </script>
+        
+        
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143003941-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-143003941-1');
+        </script>
+
+        
+    </head>
+    <body>
+    <header>
+         <div class="header_box">
+                <span id="button-menu" class="fa fa-bars"></span>
+                <nav class="navegacion">
+                    <ul class="menu">
+		                <li><a class="btn-enlace" data-scroll href="#inicio"><span class="btn-inicio"></span>INICIO</a></li>
+                        <li><a class="btn-enlace" data-scroll href="#trabajos"><span class="btn-portfolio"></span>TRABAJOS</a></li>
+                        <li><a class="btn-enlace" data-scroll href="#sobre_mi"><span class="btn-sobre-mi"></span>SOBRE MÍ</a></li>
+                        <li><a class="btn-enlace" data-scroll href="#contacto"><span class="btn-contacto"></span>CONTACTO</a></li>
+                    </ul>
+                </nav>
+                <div class="ms-dgjr">
+                    <a href="index.html">
+                        <h2 class="logo_header"><img src="img/logo_ms_diseno-grafico.svg" alt="logo_ms_diseno-grafico"></h2>
+                    </a>
+                </div>
+                <div class="header-top">
+                    <div class="inavegacion" id="inputSearch">
+                        <input type=search placeholder="Buscar . . ." class="busca" id="inputBusqueda">
+                        <div class="search" id="search">
+                        <table class="search-table" id="searchTable">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="konex.html#postal">Postal (Konex)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="sali_del_medio.html#postal">Postal (SdM)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="bullying.html">Postal (LdB)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="bullying.html">Flyer/volante (LdB)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="etnofobia.html#folleto">Folleto (N a la E)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="konex.html#postal">Flyer/volante (Konex)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="sali_del_medio.html#folleto">Folleto (SdM)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="sali_del_medio.html#postal">Flyer (SdM)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="logos.html">Logos</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="nandu.html">Logo Ñandú</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="konex.html#folleto">Folleto</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="alagorra.html#tarjeta">Tarjetas personales</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="konex.html#carteleria">Cartelería (Konex)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="konex.html#afiche">Afiche (Konex)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="sdm.html#remera">Remera SdM</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="nandu.html#remera">Remeras Ñandú</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="bullying.html">Diseño de flyers LdB</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="sdm.html#redes">Piezas de redes</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="konex.html#editorial">Diseño editorial Konex</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="konex.html#web">Diseño web (Konex)</a></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><a href="konex.html#señaletica">Señalética</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="konex.html#remera">Remera Konex</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="konex.html#remera">Remera Konex</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="sali_del_medio.html">Afiche (SdM)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="arsat.html">Tipografía</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="cuentan.html">Libro</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="marginal.html">Diario</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="delicias.html">Afiche</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="delicias.html#carteleria">Cartelería (MdlD)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="delicias.html#editorial">Diseño editorial (MdlD)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="pp.html">Revista</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="pp.html">Revista</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="fireflies.html">Música/Vinilos</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="malkovich.html">Afiche</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="malkovich.html#editorial">Diseño Editorial (Cine)</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="malkovich.html">Cine</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="nucleo_urbano.html">Animación NH</a></td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                    <div class="icon-search" id="icon-search"></div>
+                </div>
+            </div>
+    </header>
+    <main id="fullpage">
+        <div id="inicio" >
+            <div class="slider_index">
+                <ul>
+                    <li><img src="img/slider/slider4.jpg" alt="logos"></li>
+                    <li><img src="img/slider/slider1a.jpg" alt="postales_y_flyers"></li>
+                    <li><img src="img/slider/slider2.jpg" alt="piezas"></li>
+                    <li><img src="img/slider/slider3.jpg" alt="diseno_de_identidad"></li>
+                </ul>
+            </div>
+       </div>
+       <section class="presentacion">
+           <img src="img/matias_solis.svg" alt="matias_solis" class="paglogo">
+           <h2 class="arsat">Matías Solís</h2>
+           <h1>· Diseñador gráfico ·</h1>
+           <div class="redes-up">
+               <ul>
+                   <li><a href="https://www.facebook.com/dgmatiassolis/" target="_blank"><img src="img/facebook.svg" alt="facebook"></a></li>
+                   <li><a href="https://www.instagram.com/matiassolis.dg/" target="_blank"><img src="img/instagram.svg" alt="instagram"></a></li>
+                   <li><a href="https://api.whatsapp.com/send?phone=541140549068&text=Hola Matías!" target="_blank"><img src="img/whatsapp.svg" alt="whatsapp"></a></li>
+               </ul>
+           </div>
+       </section>
+       <section id="trabajos">
+                <h6>Trabajos</h6>
+                <article data-anchor="trabajos" class="section">
+                            <h3 class="titulo">TRABAJOS</h3>
+                             <nav class="catalogo">
+                                <ul>
+                                 <li>
+                                       <a href="la-reserva.html">
+                                        <figure>
+                                            <img src="img/la-reserva.jpg" alt="la-reserva">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Proeza de la naturaleza</h4>
+                                            <p>La Reserva - UX Project</p>
+                                            <span class="campo_creativo">UX / UI Design</span>
+                                        </div>
+                                       </a>
+                                   </li>
+                                  <li>
+                                       <a href="malba.html">
+                                        <figure>
+                                            <img src="img/malba.jpg" alt="malba">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Explorá nuevas historias</h4>
+                                            <p>Malba</p>
+                                            <span class="campo_creativo">Branding</span>
+                                        </div>
+                                       </a>
+                                   </li>
+                                  <li>
+                                       <a href="caituzaingo.html">
+                                        <figure>
+                                            <img src="img/caituzaingo.jpg" alt="club_atletico_ituzaingo">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Orgullo del Barrio</h4>
+                                            <p>Club Atlético Ituzaingó</p>
+                                            <span class="campo_creativo">Branding / Social media</span>
+                                        </div>
+                                       </a>
+                                   </li>
+                                       
+                                   <li>
+                                       <a href="logos.html">
+                                        <figure>
+                                            <img src="img/logo.jpg" alt="catalogo_de_logos">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Logofolio</h4>
+                                            <p>Catálogo M \ DG</p>
+                                            <span class="campo_creativo">Branding</span>
+                                        </div>
+                                       </a>
+                                   </li>
+                                   
+                                   <li>
+                                       <a href="tarpui.html">
+                                        <figure>
+                                            <img src="img/tarpui1.jpg" alt="tarpui">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Dése el gusto</h4>
+                                            <p>Tarpuy</p>
+                                            <span class="campo_creativo">Branding</span>
+                                        </div>
+                                       </a>
+                                   </li>
+                                         
+                                  <li>
+                                       <a href="konex.html">
+                                        <figure>
+                                            <img src="img/konex.jpg" alt="fireflies">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Encontrá tu esencia</h4>
+                                            <p>CC Konex</p>
+                                            <span class="campo_creativo">Branding</span>
+                                        </div>
+                                       </a>
+                                    </li>
+                                         
+                                    <li>
+                                       <a href="delicias.html">
+                                        <figure>
+                                            <img src="img/delicias.jpg" alt="fireflies">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">La música de las delicias</h4>
+                                            <p>Festival de música clásica</p>
+                                            <span class="campo_creativo">Branding</span>
+                                        </div>
+                                       </a>
+                                    </li>
+                                      
+                                    <li>
+                                       <a href="sali-del-medio.html">
+                                        <figure>
+                                            <img src="img/sdm.jpg" alt="sali_del_medio">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Salí del medio</h4>
+                                            <p>Convención en FCSo</p>
+                                            <span class="campo_creativo">Branding</span>
+                                        </div>
+                                        </a>
+                                    </li>
+                                    
+                                   <li>
+                                       <a href="fireflies.html">
+                                        <figure>
+                                            <img src="img/fireflies.jpg" alt="fireflies">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto"><span class="fireflies">[Fireflies]</span></h4>
+                                            <p>Revista infomercial</p>
+                                            <span class="campo_creativo">Branding</span>
+                                        </div>
+                                       </a>
+                                   </li>
+                                
+                                   <li>
+                                       <a href="pp.html">
+                                        <figure>
+                                            <img src="img/pp.jpg" alt="primera_pasada">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Primera Pasada</h4>
+                                            <p>Revista de gráfica</p>
+                                            <span class="campo_creativo">Editorial</span>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    
+                                    
+                                    <li><a href="malkovich.html">
+                                        <figure>
+                                            <img src="img/malkovich.jpg" alt="malkovich">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">¿Quieres ser John Malkovich?</h4>
+                                            <p>Promoción cine</p>
+                                            <span class="campo_creativo">Branding</span>
+                                        </div>
+                                    </a>
+                                    </li>
+                                    
+                                    <li>
+                                       <a href="vivir-en-el-oeste.html">
+                                        <figure>
+                                            <img src="img/vivir_en_el_oeste.jpg" alt="vivir_en_el_oeste">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Vivir en el Oeste</h4>
+                                            <p>Revista infomercial</p>
+                                            <span class="campo_creativo">Editorial</span>
+                                        </div>
+                                       </a>
+                                   </li>
+                                    
+                                    <li>
+                                       <a href="nucleo-urbano.html">
+                                        <figure>
+                                            <img src="img/nucleo_urbano.jpg" alt="nucleo_urbano">
+                                        </figure>
+                                        <div class="verdeazul">
+                                            <h4 class="nombre_proyecto">Nucleo Urbano</h4>
+                                            <p>Cutout animation</p>
+                                            <span class="campo_creativo">Animación</span>
+                                        </div>
+                                       </a>
+                                    </li>
+             
+                                    
+                                </ul>
+                            </nav>
+                </article>
+        
+       </section>
+       <section id="sobre_mi">
+         <h6>Matás Solís</h6>
+          <article class="perfil-contenedor">
+               <figure class="foto_de_perfil">
+                   <img src="img/matias_solis.jpg" alt="matias_solis">
+               </figure>
+               <div class="info_perfil">
+                   <h2 class="perfil_titulo">- Hola -</h2>
+                   <h3 class="perfil_bajada">Soy Matías</h3>
+                   <div class="perfil-texto"><p>El criterio y el compromiso en cada proyecto son los valores que me caracterizan.</p></div>
+                   <ul class="perfil_historia">
+                       
+                       <li class="historia">
+                           <img class="icono-sobremi" src="img/icons/profesional.png" alt="profesional">
+                           <h5 class="arsat">Profesional</h5>
+                           <p>Graduado en FADU-UBA, cuento con amplia experiencia como diseñador gráfico, participando en diversos proyectos.</p>
+                       </li>
+                       
+                       <li class="historia">
+                           <img class="icono-sobremi" src="img/icons/web-designer.png" alt="web-designer">
+                           <h5 class="arsat">Web Designer</h5>
+                           <p>Soy especialista en el diseño, la maquetación y la programación de sitios web, ofreciendo productos dinámicos y optimizados para los buscadores.</p>
+                       </li>
+                       
+                       <li class="historia">
+                           <img class="icono-sobremi" src="img/icons/didactico.png" alt="didactico">
+                           <h5 class="arsat">Didácico</h5>
+                           <p>Soy docente en la <a href="http://www.diazcortez.com.ar/docentes.php" target="_blank">cátedra Díaz Cortez</a> de la materia DGPC en la UBA, y me empeño por ser claro y conciso para transmitir ideas y asesorar.</p>
+                       </li>
+                       
+                       <li class="historia inf">
+                           <img class="icono-sobremi" src="img/icons/curioso.png" alt="un_poco_nerd">
+                           <h5 class="arsat">Un poco Nerd</h5>
+                           <p>Soy aficionado de los avances tecnológicos, y me gusta cultivarme sobre temas como la Inteligencia Artifical y el Machine Learning.</p>
+                       </li>
+                       
+                       <li class="historia inf">
+                           <img class="icono-sobremi" src="img/icons/todoterreno.png" alt="vesatil">
+                           <h5 class="arsat">Versátil</h5>
+                           <p>Tengo experiencia en marketing digital, diseño editorial, encuadernación, preprensa, serigrafía, animación y flexografía.</p>
+                       </li>
+                       
+                   </ul>
+               </div>
+           </article>
+       </section>
+       
+       <section style="background-color:azure; padding: 1em"><h5 style="font-size: 1.2em; color:darkslategray; font-weight:600;width:100%;text-align:center;"><span class="arsat">¡Gracias!</span> Responderé a la brevedad.</h5></section>
+       
+       <section id="contacto">
+             <h6>Contactarse</h6>
+              <aside class="contacto-contenedor">
+                 <div class="contactoprimero">
+                     <div class="row divform">
+                        <form class="col s12 m6 l6" method="post" action="enviar.php">
+                            <table style="width:100%;">
+                            <tr style="display: flex; flex-direction: column; margin-bottom:.5em;">
+                            <td style="margin-bottom: .5em; font-size: .8em; letter-spacing: .3em;">NOMBRE</td>
+                            <td><input name="nombre" style="width:100%; margin-bottom: 1em; padding: .3em; border-radius: .3em;background-color: cornsilk;" required></td>
+                            </tr>
+                            <tr style="display: flex; flex-direction: column; margin-bottom:.5em;">
+                            <td style="margin-bottom: .5em; font-size: .8em; letter-spacing: .3em;">E-MAIL</td>
+                            <td><input name="email" style="width:100%; margin-bottom: 1em; padding: .3em; border-radius: .3em;background-color: cornsilk;" required></td>
+                            </tr>
+                            <tr style="display: flex; flex-direction: column; margin-bottom:.5em;">
+                            <td style="margin-bottom: .5em; font-size: .8em; letter-spacing: .3em;">MENSAJE</td>
+                            <td><textarea rows="8" cols="50" name="comentario" style="width: 100%; margin-bottom: 1em; padding: .3em; border-radius: .3em;background-color: cornsilk;" required></textarea></td>
+                            </tr>
+                            <tr style="">
+                            <td colspan="2"><input type="submit" value="ENVIAR" style="padding: .5em;font-size: .8em;font-weight: 600;letter-spacing: .2em;border-radius: .3em;border-color: darkcyan;background-color: cadetblue;color: azure; margin-top: 1em;"></td>
+                            </tr>
+                            </table>
+                        </form>
+                      </div>
+                 </div> 
+                 <article>
+                      <ul>
+                        <li><h3 class="contacto-titulo">CONTACTO</h3></li>
+                          <li class="domicilio"><p>Vivo en</p><p>Ituzaingó, Bs. As. Argentina</p></li>
+                          <!-- <li class="telefono"><p>+54 11 4624-1694</p></li> -->
+                          <li class="mobile"><p>+54 11 4054-9068</p></li>
+                          <li class="mail-uno"><a href="mailto:info@matiassolis.com">info@matiassolis.com</a></li>
+                          <li class="mail-dos"><a href="mailto:matiasrsolis@yahoo.com.ar">matiasrsolis@yahoo.com.ar</a></li>
+                          <li class="validator"><p>
+                                                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                                    <img style="border:0;width:auto;height:25px;margin-top:1em"
+                                                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                                        alt="¡CSS Válido!" />
+                                                    </a>
+                                                </p>
+                         </li>
+                      </ul>
+                      <div class="redes-sociales">
+                              
+                              <ul>
+                                 <li><h3 class="contacto-titulo">REDES SOCIALES</h3></li>
+                                  <li><a href="https://www.facebook.com/dgmatiassolis/" class="r-facebook" target="_blank">DG Matias Solis</a></li>
+                                  <li><a href="https://www.linkedin.com/in/dgmatiassolis/" class="r-linkedin" target="_blank">Matias Solis</a></li>
+                                  <li><a href="https://www.behance.net/matiassolis" class="r-behance" target="_blank">Matias Solis</a></li>
+                                  <li><a href="https://www.instagram.com/matiassolis.dg/" class="r-instagram" target="_blank">matiassolis.dg</a></li>
+                              </ul>
+                          </div>
+                  </article>
+                  
+              </aside>
+           
+       </section>
+       <div id="boton-subir"><a class="boton-subir" href="#inicio">a</a></div>
+        </main>
+         <footer>
+        <div class="texto_footer">
+                    <p>© 2019. Web diseñada por Matías Solís.</p>
+        </div>
+    </footer>
+       
+       <!--scroll lento<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>-->
+       
+    </body>

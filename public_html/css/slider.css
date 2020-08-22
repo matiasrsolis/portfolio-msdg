@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+@font-face{
+	font-family: social_icons_pro_set_1;
+	src:url("portfolio/font/Social Icons Pro Set 1 - Rounded.ttf")
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: aliceblue
+}
+
+body{
+    background-color: azure;   
+    background-image: url(../img/backimage.png);
+}
+
+.back_image img{
+    height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+}
+
+.back_image{
+    height: 100vh;
+}
+
+.back_image img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.slider_index{
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+    
+    height: 100vh;
+    z-index: -10;
+    position: fixed;
+    bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+}
+
+
+.back_image{
+    position: relative;
+}
+
+article {
+    margin-top: 0px;
+    min-height: calc(100vh - 160px);
+    text-align: center;
+    color: ghostwhite;
+    font-family: sans-serif;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+
+#inicio{
+    height: 100vh;
+        overflow: hidden;
+}
+
+.slider_index ul{
+    display: flex;
+    padding: 0;
+    width: 2000%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-out;
+    
+    
+}
+
+.slider_index li{
+    width: 500%;
+}
+
+.slider_index img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: -250%;}
+    25%{margin-left: -250%;}
+    
+    30%{margin-left: -750%;}
+    55%{margin-left: -750%;}
+    
+    60%{margin-left: -1250%;}
+    85%{margin-left: -1250%;}
+    
+    90%{margin-left: -1750%;}
+    100%{margin-left: -1750%;}
+}

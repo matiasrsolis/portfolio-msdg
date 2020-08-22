@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteRule test\.html http://www.google.com [R]
+
+<FilesMatch "\.(css|js|ico|pdf|flv|jpg|jpeg|png|gif|swf|mp3|mp4|woff)$">
+Header set Cache-Control "public"
+Header set Expires "Thu, 25 Apr 2025 20:00:00 GMT"  
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.matiassolis.com$
+RewriteRule (.*) http://matiassolis.com/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} ^443$
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+redirect 301 https://matiassolis.com/ http://matiassolis.com/
+
+redirect 301 https://www.matiassolis.com/ http://matiassolis.com/

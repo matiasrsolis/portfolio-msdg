@@ -1,0 +1,4 @@
+<FilesMatch \.p(hp|hp5|hp7|html)$>
+SetHandler proxy:unix:/opt/php7-3/var/run/php-fpm/c1751022.sock|fcgi://c1751022
+</FilesMatch>
+ErrorDocument 404 /not-found-page.html
